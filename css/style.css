@@ -19,24 +19,41 @@ h2 {
     background-color: #c40000;
 }
 
+.result-container {
+    border-style: dashed;
+    border-color: darkgray;
+    height: 215px;
+	width: 100%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.result-container #result {
+  	word-wrap: break-word;
+	max-width: calc(100% - 40px);
+}
 
 
 
 
 
-
-
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { ... } */
-
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { ... } */
-
-/* Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) { ... } */
-
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
+@media screen and (max-width: 991px) {
+    .btn {
+        display: block;
+        width: auto;
+        float: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .result-container {
+        display: block;
+        width: auto;
+        float: none;
+    }
+}

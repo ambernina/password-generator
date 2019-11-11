@@ -1,0 +1,23 @@
+
+Create array's for each element that could be used:
+    lowercase letters
+    uppercase letters
+    numbers
+    special characters
+
+creat a function that sks the user about the speifics of the password:
+    length
+    lowercase
+    uppercase
+    numbers
+    special characters
+save each of these in a variable
+
+once we know the password's specs, we can now create another variable
+that will include all the characters that the user wants to include. Ex 
+if the user wants
+
+
+
+** change form to an empty div or p tag that will be filled by the password
+** console log everything!!!
