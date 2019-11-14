@@ -31,15 +31,19 @@ h2 {
 	align-items: center;
 	position: relative;
 	font-size: 18px;
-	letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .result-container #result {
-  	word-wrap: break-word;
+    word-wrap: break-word;
 	max-width: calc(100% - 40px);
 }
 
+#result {
+    text-align: center;
+    display: inline-block;
 
+}
 
 
 
